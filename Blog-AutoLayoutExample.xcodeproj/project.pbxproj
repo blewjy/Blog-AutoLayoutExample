@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		DBC5B42921FB96C100F5713E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B42821FB96C100F5713E /* AppDelegate.swift */; };
 		DBC5B42B21FB96C100F5713E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B42A21FB96C100F5713E /* ViewController.swift */; };
-		DBC5B42E21FB96C100F5713E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC5B42C21FB96C100F5713E /* Main.storyboard */; };
 		DBC5B43021FB96C300F5713E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5B42F21FB96C300F5713E /* Assets.xcassets */; };
 		DBC5B43321FB96C300F5713E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC5B43121FB96C300F5713E /* LaunchScreen.storyboard */; };
+		DBC5B43D21FB9B2400F5713E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC5B43C21FB9B2400F5713E /* Storyboard.storyboard */; };
+		DBC5B43F21FC2ADA00F5713E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B43E21FC2ADA00F5713E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DBC5B42521FB96C100F5713E /* Blog-AutoLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blog-AutoLayoutExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC5B42821FB96C100F5713E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC5B42A21FB96C100F5713E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBC5B42D21FB96C100F5713E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBC5B42F21FB96C300F5713E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC5B43221FB96C300F5713E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBC5B43421FB96C300F5713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC5B43C21FB9B2400F5713E /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		DBC5B43E21FC2ADA00F5713E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				DBC5B42821FB96C100F5713E /* AppDelegate.swift */,
 				DBC5B42A21FB96C100F5713E /* ViewController.swift */,
-				DBC5B42C21FB96C100F5713E /* Main.storyboard */,
 				DBC5B42F21FB96C300F5713E /* Assets.xcassets */,
 				DBC5B43121FB96C300F5713E /* LaunchScreen.storyboard */,
 				DBC5B43421FB96C300F5713E /* Info.plist */,
+				DBC5B43C21FB9B2400F5713E /* Storyboard.storyboard */,
+				DBC5B43E21FC2ADA00F5713E /* Extensions.swift */,
 			);
 			path = "Blog-AutoLayoutExample";
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 			files = (
 				DBC5B43321FB96C300F5713E /* LaunchScreen.storyboard in Resources */,
 				DBC5B43021FB96C300F5713E /* Assets.xcassets in Resources */,
-				DBC5B42E21FB96C100F5713E /* Main.storyboard in Resources */,
+				DBC5B43D21FB9B2400F5713E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC5B42B21FB96C100F5713E /* ViewController.swift in Sources */,
+				DBC5B43F21FC2ADA00F5713E /* Extensions.swift in Sources */,
 				DBC5B42921FB96C100F5713E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DBC5B42C21FB96C100F5713E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBC5B42D21FB96C100F5713E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DBC5B43121FB96C300F5713E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
